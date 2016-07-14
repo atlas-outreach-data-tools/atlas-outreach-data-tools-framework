@@ -69,11 +69,11 @@ Execution times are between 1 to 1.5 hours in single core mode or ~ 15 minutes i
 
 Results may be plotted via:
 
-> python PlotResults.py Configuration/PlotConf\_AnalysisName.py
+> python PlotResults.py Configurations/PlotConf\_AnalysisName.py
 
 In our example case the name of the analysis is *TTbarAnalysis*, so type:
 
-> python PlotResults.py Configuration/PlotConf\_TTbarAnalysis.py
+> python PlotResults.py Configurations/PlotConf\_TTbarAnalysis.py
 
 The resulting histograms will be put into the _Output_ directory.
 
