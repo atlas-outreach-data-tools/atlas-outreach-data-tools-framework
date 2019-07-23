@@ -89,7 +89,7 @@ def DrawPlot(configuration, histlocation):
     canvas.legend = drawLegend(Paintables, Depictions[0].PaintingOrder)
     [d.drawDepiction(Paintables) for d in Depictions]
 
-    canvas.SaveAs("Output/" + histlocation+ ".pdf")  
+    canvas.SaveAs("Output/" + histlocation+ ".png")  
  
 #======================================================================
 def main( argv ):

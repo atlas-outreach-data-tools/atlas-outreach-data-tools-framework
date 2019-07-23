@@ -71,7 +71,7 @@ class TupleReader(object):
         self.Jet_pt       = self.activate("f", "jet_pt",       max_Jet)
         self.Jet_eta      = self.activate("f", "jet_eta",      max_Jet)
         self.Jet_e        = self.activate("f", "jet_E",        max_Jet)
-        self.Jet_flag     = self.activate("i", "jet_flag",     max_Jet)
+        ## self.Jet_flag     = self.activate("i", "jet_flag",     max_Jet)
         self.Jet_phi      = self.activate("f", "jet_phi",      max_Jet)
         self.Jet_mass     = self.activate("f", "jet_m",        max_Jet)
         self.Jet_jvf      = self.activate("f", "jet_jvf",      max_Jet)
