@@ -13,7 +13,7 @@ The provided zip-file should be placed into the Input folder and unzipped via
 ### Analysis
 The files in the root directory of the installation are the various run scripts. Configuration files can be found in the *Configurations* folder. 
 
-As a first test to check whether everything works fine you can simply run a preconfigured analyis via
+As a first test to check whether everything works fine you can simply run a preconfigured analysis via
 
 >     python RunScript.py -a TTbarAnalysis -s "WW, WZ"
 
@@ -30,7 +30,7 @@ The options include:
 >     -p,            --parallel              enables running in parallel (default is single core use)
 >     -n NWORKERS,   --nWorkers NWORKERS     specifies the number of workers if multi core usage is desired (default is 4)
 >     -c CONFIGFILE, --configfile CONFIGFILE specifies the config file to be read (default is Configurations/Configuration.py)
->     -o OUTPUTDIR,  --output OUTPUDIR       specifies the output directory you would like to use instead of the one in the configuration file
+>     -o OUTPUTDIR,  --output OUTPUTDIR      specifies the output directory you would like to use instead of the one in the configuration file
 
 The Configuration.py file specifies how an analysis should behave. The Job portion of the configuration looks like this:
 
@@ -44,7 +44,7 @@ The Configuration.py file specifies how an analysis should behave. The Job porti
 
 The second portion of the configuration file specifies which 
 The locations of the individual files that are to be used for the different 
-processes can be set es such:
+processes can be set as such:
 
 >     Processes = {
 >         # Diboson processes
